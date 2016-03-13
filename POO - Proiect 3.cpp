@@ -1,3 +1,8 @@
+/* Tema 9. polinoame reprezentate ca tablouri unidimensionale (prin gradul polinomului si vectorul coeficientilor(coeficientii pot fi de orice tip):
+
+Clasa polinom, prietena a clasei pereche (implementata in LP2) sa fie clasa de baza pentru clasa Polinom_ireductibil. Clasa derivata trebuie sa contina constructor parametrizat prin care sa se evidentieze transmiterea parametrilor catre constructorul din clasa de baza, destructor si  o metoda care sa aplice criteriul lui Eisenstein de verificare a ireductibilitatii polinoamelor. Sa se evidentieze conceptul de functie virtuala (pura – daca este mai natural in implementare).
+*/
+
 #include <iostream>
 #include<fstream>
 #include<math.h>

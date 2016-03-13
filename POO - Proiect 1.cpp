@@ -1,12 +1,3 @@
-/* Tema 9. Polinoame reprezentate ca tablouri unidimensionale (prin gradul polinomului si vectorul coeficientilor (coeficientii vor apartine la monoame de grade consecutive), de dimensiune egala cu gradul plus 1, de la cel al termenului liber la cel de grad maxim):
-
-·         fiecare coeficient va fi de tip double;
-
-·         clasa polinom sa contina metode pentru: supraincarcarea lui << si >>; calculul valorii unui polinom intr-un punct (de tip double); suma a doua polinoame, implementata prin supraincarcarea operatorului +; diferenta dintre doua polinoame, implementata prin supraincarcarea operatorului -; produsul a doua polinoame, implementat prin supraincarcarea operatorului *;
-
-·         sa se creeze o clasa de perechi (numar real,polinom), cu numarul real dat ca fiind de tip double si polinomul de tip clasa polinom, care sa fie clasa prietena a clasei polinom, si sa contina: supraincarcari pentru << si >>, care sa foloseasca supraincarcarile pentru << si >> din clasa polinom; o metoda care sa verifice daca numarul real dat de respectiva data membru este radacina a polinomului dat de cealalta data membru, folosind metoda de calcul a valorii unui polinom intr-un punct din clasa polinom;
-*/
-
 #include <iostream>
 
 using namespace std;

@@ -60,9 +60,12 @@ public class Creare extends HttpServlet {
             }
             
             if(!results.next()){
-                todo = "INSERT INTO contacte VALUES ('" + nume + "','" + prenume + "','" + mobil + "','" + fix + "','" + email + "','"
+                if(!nume.equals("") && !prenume.equals("") && !mobil.equals("") &&!email.equals("")){
+                        todo = "INSERT INTO contacte VALUES ('" + nume + "','" + prenume + "','" + mobil + "','" + fix + "','" + email + "','"
                     + adresa + "','" + oras + "','" + judet + "','" + cod + "');";
-                result = statement.executeUpdate(todo);
+                        result = statement.executeUpdate(todo);
+                }
+               
             }
             
             if (result == 0) 
